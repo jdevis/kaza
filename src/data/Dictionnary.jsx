@@ -1,4 +1,4 @@
-export const dictionnary = [
+export const dictionnaries = [
 
     {
         id: "About1",

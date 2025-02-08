@@ -1,10 +1,13 @@
-import bannerImg from '../../assets/banner-home.png'
+import BannerHome from '../../assets/banner-home.png'
+import BannerAbout from '../../assets/banner-about.png'
 import './banner.scss'
 
-function Banner() {
+function Banner({page}) {
+    const bannerSrc = page === 'home' ? BannerHome : BannerAbout
+    const bannerClass = page === 'home' ? 'banner-home' : 'banner-about'
     return (
-        <div className='banner-home'>
-            <img src={bannerImg} alt='' />
+        <div className={bannerClass}>
+            <img src={bannerSrc} alt='' />
             <p>Chez vous, partout et ailleurs</p>
         </div>
     )
