@@ -8,7 +8,7 @@ function Banner({page}) {
     return (
         <div className={bannerClass}>
             <img src={bannerSrc} alt='' />
-            <p>Chez vous, partout et ailleurs</p>
+            <h1>Chez vous, partout et ailleurs</h1>
         </div>
     )
 }
