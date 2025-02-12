@@ -1,23 +1,27 @@
+@import 'variable.scss';
 :root {
   font-family: "Montserrat", sans-serif;
-  line-height: 1.5;
-  font-weight: 700;
+  font-weight: 500;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: $default-color;
 }
-// colors : #ff6060; #f6f6f6; #e3e3e3(star+avatar bg);#fff;#000
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 h1{
   font-size: 2.5em;
+  color: $primary-color;
 }
 h2{
   font-weight:1.5em ;
-}  
+}

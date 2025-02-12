@@ -8,7 +8,7 @@ function Home() {
     <>
       <main>
         <Banner page='home'/>
-        <section className='lodging'>
+        <section className='home'>
           {Lodgings.map((lodging)=>(
             <Card imgSrc={lodging.cover} title={lodging.title} id={lodging.id} key={lodging.id} />
           ))}

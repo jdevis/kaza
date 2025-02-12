@@ -23,15 +23,26 @@ function Lodging() {
                 <div className='gallery'>
                     <Gallery datas={currentLodging.pictures} />
                 </div>
-                <p className='title'>{currentLodging.title}</p>
-                <p className='location'>{currentLodging.location}</p>
-                <p className='host'>{currentLodging.host.name}<img src={currentLodging.host.picture} alt='' /></p>
-                <div className='tags'>
+                <div className='detail'>
+                    <div>
+                        <h1>{currentLodging.title}</h1>
+                        <p className='location'>{currentLodging.location}</p>
+                    </div>
+                    <div className='host'>
+                        <p>{currentLodging.host.name}</p>
+                        <img src={currentLodging.host.picture} alt='' />
+                    </div>
                     <Tag datas={currentLodging.tags} />
+                    <Rating ratings={currentLodging.rating} />
                 </div>
-                <Rating ratings={currentLodging.rating} />
-                <Dropdown title={'description'} datas={currentLodging} />
-                <Dropdown title={'equipements'} datas={currentLodging.equipments} />
+                <div className='lodging-dropdown'> 
+                    <div key='description'>
+                        <Dropdown title={'description'} datas={currentLodging} />
+                    </div>
+                    <div key='equipements'>
+                        <Dropdown title={'equipements'} datas={currentLodging.equipments} />
+                    </div>
+                </div>
             </main>
         </>
     )

@@ -10,8 +10,8 @@ function About() {
                 <Banner page='about' />
                 <div className="about">
                     {dictionnaries.map((dictionnary)=>(
-                        <div key={dictionnary.id}>
-                        <Dropdown title={dictionnary.fr.title} datas={dictionnary.fr} />
+                        <div key={dictionnary.id} className="about-dropdown">
+                            <Dropdown title={dictionnary.fr.title} datas={dictionnary.fr} />
                         </div>
                     ))}
                 </div>

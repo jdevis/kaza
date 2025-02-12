@@ -13,8 +13,8 @@ function Gallery( {datas}){
             {
                 total > 1 && (
                     <>
-                    <button className='fa-solid fa-chevron-left' onClick={previousPicture} alt="Previous image"></button>
-                    <button className='fa-solid fa-chevron-right' onClick={nextPicture} alt="Next image"></button>
+                    <button className='fa-solid fa-chevron-left' onClick={previousPicture} ></button>
+                    <button className='fa-solid fa-chevron-right' onClick={nextPicture} ></button>
                     <span className='paging'>{index+1} / {total}</span>
                     </>
                 )

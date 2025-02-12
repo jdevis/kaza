@@ -1,8 +1,11 @@
+@import '../../assets/styles/variable.scss';
 footer {
-    background-color: #000;
-    color: #fff;
+    background-color: $default-color;
+    color:$secondary-color;
+    text-align: center;
+    padding: 2.5em 0 1em 0;
     .logo{
-        fill: #fff;
+        fill: $secondary-color;
         width:122px;
         height: 40px;
     }

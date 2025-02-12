@@ -1,5 +1,5 @@
-import BannerHome from '../../assets/banner-home.png'
-import BannerAbout from '../../assets/banner-about.png'
+import BannerHome from '../../assets/img/banner-home.png'
+import BannerAbout from '../../assets/img/banner-about.png'
 import './banner.scss'
 
 function Banner({page}) {

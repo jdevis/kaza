@@ -1,19 +1,31 @@
-.banner-home {
-    border: 1px solid black;
+@import '../../assets/styles/variable.scss';
+.banner-home, .banner-about {
+    position: relative;
+    border-radius: 1.5em;
+    width: 1240px;
+    height: 223px;
+    overflow: hidden;
     img{
         width: 1240px;
         height: 223px;
+        border-radius: inherit;
         object-fit: cover;
     }
 }
-.banner-about {
-    border: 1px solid black;
-
-    img {
-        width: 1240px;
-        height: 223px;
-        object-fit: cover;
+.banner-home {
+    h1{
+        color: $secondary-color;
+        position: absolute;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        background: rgba(0, 0, 0, 0.6);
+        padding-top: 1.5em;
     }
+}
+.banner-about {
     h1{
         display: none;
     }

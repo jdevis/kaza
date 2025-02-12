@@ -1,0 +1,21 @@
+@import '../../assets/styles/variable.scss';
+.error {
+    width: 1240px;
+    text-align: center;
+    margin: 1em auto;
+    min-height: 600px;
+    place-content: center;
+    h1{
+        font-size: 14em;
+        font-weight: 700;
+    }
+    p{
+        font-size: 36px;
+        color: $primary-color;
+    }
+    a{
+        margin: 3em 0;
+        display: block;
+        color: $default-color;
+    }
+}

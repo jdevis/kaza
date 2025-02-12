@@ -11,6 +11,9 @@ function Rating({ratings}){
         }
         iconesArray.push(<i className={`fa-solid fa-star ${classIcone}`} key={i}></i>)
     }
-    return iconesArray
+    return (
+        <div className='rating'>
+            {iconesArray}
+        </div>)
 }
 export default Rating

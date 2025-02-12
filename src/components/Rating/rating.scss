@@ -1,6 +1,11 @@
-i{
-    color: #666;
-}
-i.active{
-        color: #ff6060;
+@import '../../assets/styles/variable.scss';
+.rating{
+    text-align: right;
+    place-content: center;
+    i{
+        color: $secondary-bg;
+    }
+    i.active{
+            color: $primary-color;
+    }
 }
