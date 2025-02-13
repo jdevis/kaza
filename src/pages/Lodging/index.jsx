@@ -24,16 +24,18 @@ function Lodging() {
                     <Gallery datas={currentLodging.pictures} />
                 </div>
                 <div className='detail'>
-                    <div>
+                    <div className='detail-headers'>
                         <h1>{currentLodging.title}</h1>
                         <p className='location'>{currentLodging.location}</p>
+                        <Tag datas={currentLodging.tags} />
                     </div>
-                    <div className='host'>
-                        <p>{currentLodging.host.name}</p>
-                        <img src={currentLodging.host.picture} alt='' />
+                    <div className='host-rating'>
+                        <div className='host'>
+                            <p>{currentLodging.host.name}</p>
+                            <img src={currentLodging.host.picture} alt='' />
+                        </div>
+                        <Rating ratings={currentLodging.rating} />
                     </div>
-                    <Tag datas={currentLodging.tags} />
-                    <Rating ratings={currentLodging.rating} />
                 </div>
                 <div className='lodging-dropdown'> 
                     <div key='description'>

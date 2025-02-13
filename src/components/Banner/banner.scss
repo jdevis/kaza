@@ -2,11 +2,15 @@
 .banner-home, .banner-about {
     position: relative;
     border-radius: 1.5em;
-    width: 1240px;
+    width: 100%;
     height: 223px;
     overflow: hidden;
+    @media (max-width:769px) {
+        border-radius: .5em;
+        height: 110px;
+    }
     img{
-        width: 1240px;
+        width: 100%;
         height: 223px;
         border-radius: inherit;
         object-fit: cover;
@@ -16,13 +20,19 @@
     h1{
         color: $secondary-color;
         position: absolute;
-        text-align: center;
         margin: auto;
         width: 100%;
         height: 100%;
         top: 0px;
-        background: rgba(0, 0, 0, 0.6);
-        padding-top: 1.5em;
+        background: $opacity;
+        place-content: center;
+        text-align: center;
+        @media (max-width:769px) {
+            text-align: left;
+            padding-left: 1em;
+            width: 95%;
+            font-size: 1.25em;
+        }
     }
 }
 .banner-about {

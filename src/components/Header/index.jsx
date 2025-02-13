@@ -1,11 +1,11 @@
 import { NavLink } from 'react-router-dom'
-import Logo from '../../assets/img/Logo'
+import logoHome from '../../assets/img/logo-header.png'
 import './header.scss'
 
 function Header() {
     return (
         <header>
-            <Logo/>
+            <img src={logoHome} className='logo'/>
             <nav>
                 <NavLink to="/">
                     Accueil

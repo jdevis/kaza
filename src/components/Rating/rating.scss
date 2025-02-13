@@ -1,9 +1,10 @@
 @import '../../assets/styles/variable.scss';
 .rating{
     text-align: right;
-    place-content: center;
+    margin: 1em 0;
     i{
         color: $secondary-bg;
+        padding-left: .5em;
     }
     i.active{
             color: $primary-color;

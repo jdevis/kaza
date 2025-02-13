@@ -1,8 +1,12 @@
 .about{
     margin: 1.5em 0;
-    max-width: 1240px;
+    width: 100%;
     place-items: center;
     .about-dropdown{
         width: 90%;
+        @media (max-width:769px) {
+            width: 100%;
+            font-size: .75em;
+        }
     }
 }

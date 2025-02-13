@@ -2,14 +2,23 @@
 .tags{
     margin: .5em 0;
     padding: 1em 0;
+    display: flex;
+    flex-wrap: wrap;
     span{
         padding: .25em 2em;
         margin: 1em;
+        margin-left: 0;
         background-color: $primary-color;
         border-radius: 1em;
         color: $secondary-color;
     }
-    :first-child{
-        margin-left: 0;
+    @media (max-width:769px) {
+        margin: 0;
+        padding: 0;
+        span{
+            font-size: .75em;
+            margin: .5em;
+            margin-left: 0;
+       }
     }
 }

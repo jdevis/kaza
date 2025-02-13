@@ -1,21 +1,37 @@
 @import '../../assets/styles/variable.scss';
 .error {
-    width: 1240px;
+    width: 100%;
     text-align: center;
     margin: 1em auto;
-    min-height: 600px;
     place-content: center;
     h1{
         font-size: 14em;
         font-weight: 700;
+        margin: .25em 0;
     }
     p{
-        font-size: 36px;
+        font-size: 1.5em;
         color: $primary-color;
+        margin: 3em 0;
     }
     a{
-        margin: 3em 0;
+        margin: 5em 0;
         display: block;
         color: $default-color;
+        font-size: .75em;
+    }
+    @media (max-width:769px) {
+        width: 90%;
+        h1{
+            font-size: 5em;
+            margin: 1em 0;
+        }
+        p{
+            font-size: 1em;
+        }
+        a{
+            font-size: .75em;
+            margin: 6em 0;
+        }
     }
 }

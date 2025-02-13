@@ -1,5 +1,6 @@
 @import '../../assets/styles/variable.scss';
 header{ 
+    width: 100%;
     max-width: 1240px;
     display: flex;
     padding: 1em 0;
@@ -19,6 +20,15 @@ header{
         }
         a.active,a:hover{
             text-decoration: underline;
+        }
+    }
+    @media (max-width: 769px) {
+        .logo{
+            width: 145px;
+            height: 47px;
+        }
+        nav a{
+            font-size: .75em;
         }
     }
 }   

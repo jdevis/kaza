@@ -4,9 +4,16 @@ footer {
     color:$secondary-color;
     text-align: center;
     padding: 2.5em 0 1em 0;
+    width: 100%;
     .logo{
         fill: $secondary-color;
         width:122px;
         height: 40px;
+    }
+    @media (max-width: 769px) {
+        padding: 3em 5em;
+        p{
+            font-size: .75em;
+        }
     }
 }

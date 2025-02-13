@@ -17,10 +17,25 @@ body {
 #root {
   max-width: 1440px;
   margin: 0 auto;
+  width: 100%;
+  place-items: center;
+  @media (max-width:769px) {
+    padding: 0 1em;
+  }
+}
+main{
+  max-width: 1240px;
+  width: 100%;
+    @media (max-width: 769px) {
+        padding: 0 1em;
+      }
 }
 h1{
   font-size: 2.5em;
   color: $primary-color;
+  @media (max-width: 769px) {
+    font-size: 1.5em;
+  }
 }
 h2{
   font-weight:1.5em ;
