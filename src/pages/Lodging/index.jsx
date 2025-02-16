@@ -29,7 +29,7 @@ function Lodging() {
                         <p className='location'>{currentLodging.location}</p>
                         <Tag datas={currentLodging.tags} />
                     </div>
-                    <div className='host-rating'>
+                    <div className='host-rating'>                        
                         <div className='host'>
                             <p>{currentLodging.host.name}</p>
                             <img src={currentLodging.host.picture} alt='' />

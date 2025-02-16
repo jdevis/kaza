@@ -1,4 +1,4 @@
-@import '../../assets/styles/variable.scss';
+@use '../../assets/styles/colors' as *;
 .home {
 	display: flex;
 	width: 100%;

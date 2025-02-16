@@ -1,4 +1,4 @@
-@import '../../assets/styles/variable.scss';
+@use '../../assets/styles/colors' as *;
 .rating{
     text-align: right;
     margin: 1em 0;

@@ -1,4 +1,4 @@
-@import '../../assets/styles/variable.scss';
+@use '../../assets/styles/colors' as *;
 .slider{
     width: 100%;
     position: relative;
