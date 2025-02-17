@@ -1,5 +1,6 @@
 import './error.scss'
-function Error() {
+
+const Error = () => {
     return (
         <>
             <main className="error">

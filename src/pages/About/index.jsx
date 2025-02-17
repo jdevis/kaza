@@ -3,13 +3,13 @@ import Dropdown from "../../components/Dropdown"
 import { dictionnaries } from "../../data/Dictionnary"
 import './about.scss'
 
-function About() {
+const About = () => {
     return (
         <>
             <main>
                 <Banner page='about' />
                 <div className="about">
-                    {dictionnaries.map((dictionnary)=>(
+                    {dictionnaries.map((dictionnary) => (
                         <div key={dictionnary.id} className="about-dropdown">
                             <Dropdown title={dictionnary.fr.title} datas={dictionnary.fr} />
                         </div>

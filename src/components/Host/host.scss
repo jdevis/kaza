@@ -1,0 +1,13 @@
+@use '../../assets/styles/colors' as *;
+
+.host {
+    display: flex;
+    justify-content: end;
+
+    p {
+        margin: 0;
+        padding-right: .5em;
+        color: $primary-color;
+        place-content: center;
+    }
+}

@@ -2,7 +2,7 @@ import BannerHome from '../../assets/img/banner-home.png'
 import BannerAbout from '../../assets/img/banner-about.png'
 import './banner.scss'
 
-function Banner({page}) {
+const Banner = ({page}) => {
     const bannerSrc = page === 'home' ? BannerHome : BannerAbout
     const bannerClass = page === 'home' ? 'banner-home' : 'banner-about'
     return (

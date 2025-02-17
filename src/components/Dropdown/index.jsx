@@ -1,7 +1,7 @@
 import './dropdown.scss'
 import { useState } from 'react'
 
-function Dropdown({title,datas}){
+const Dropdown = ({ title, datas }) => {
     const [isOpen, setIsOpen] = useState(false)
     let stateClass = 'fa-chevron-down'
     isOpen ? stateClass = 'fa-chevron-up' : stateClass = 'fa-chevron-down'
@@ -17,7 +17,7 @@ function Dropdown({title,datas}){
                 }
                 {isOpen && title === 'equipements' &&
                     <ul className='content'>
-                        {datas.map((equip,index)=>(
+                        {datas.map((equip, index) => (
                             <li key={index}>{equip}</li>
                         ))}
                     </ul>

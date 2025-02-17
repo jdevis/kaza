@@ -1,9 +1,9 @@
 import './tag.scss'
 
-function Tag({datas}){
+const Tag = ({ datas }) => {
     return (
         <div className='tags'>
-            {datas.map((tag,index)=>(
+            {datas.map((tag, index) => (
                 <span key={index}>{tag}</span>
             ))}
         </div>

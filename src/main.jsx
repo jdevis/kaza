@@ -10,16 +10,16 @@ import Lodging from './pages/Lodging/index.jsx'
 import Error from './pages/Error/index.jsx'
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <Router>
-      <Header/>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/lodging/:id" element={<Lodging />} />
-        <Route path="*" element={<Error />} />
-      </Routes>
-      <Footer/>
-    </Router>
-  </StrictMode>
+	<StrictMode>
+		<Router>
+			<Header />
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/about" element={<About />} />
+				<Route path="/lodging/:id" element={<Lodging />} />
+				<Route path="*" element={<Error />} />
+			</Routes>
+			<Footer />
+		</Router>
+	</StrictMode>
 )
