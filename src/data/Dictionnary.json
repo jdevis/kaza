@@ -1,0 +1,46 @@
+[
+	{
+		"id": "About1",
+		"fr": {
+			"title": "Fiabilité",
+			"description": "Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes."
+		},
+		"en": {
+			"title": "Reliability",
+			"description": "The ads posted on Kasa guarantee total reliability. The photos match the properties, and all the information is regularly checked by our teams."
+		}
+	},
+	{
+		"id": "About2",
+		"fr": {
+			"title": "Respect",
+			"description": "La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."
+		},
+		"en": {
+			"title": "Respect",
+			"description": "Kindness is one of Kasa's founding values. Any discriminatory behaviour or disruption of neighbours will result in exclusion from our platform."
+		}
+	},
+	{
+		"id": "About3",
+		"fr": {
+			"title": "Service",
+			"description": "Nos équipes se tiennent à votre disposition pour vous fournir une expérience parfaite. N'hésitez pas à nous contacter si vous avez la moindre question."
+		},
+		"en": {
+			"title": "Service",
+			"description": "Our teams are at your disposal to provide you with a perfect experience. Please do not hesitate to contact us if you have any questions."
+		}
+	},
+	{
+		"id": "About4",
+		"fr": {
+			"title": "Sécurité",
+			"description": "La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes."
+		},
+		"en": {
+			"title": "Security",
+			"description": "Safety is Kasa's top priority. For our guests and travellers alike, each accommodation meets the safety criteria established by our services. By leaving a note for both the host and the tenant, our teams can check that the standards are being respected. We also organise home safety workshops for our guests."
+		}
+	}
+]
